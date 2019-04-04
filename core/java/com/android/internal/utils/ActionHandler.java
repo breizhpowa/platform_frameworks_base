@@ -195,7 +195,6 @@ public class ActionHandler {
         MediaArrowLeft(SYSTEMUI_TASK_MEDIA_PREVIOUS, SYSTEMUI, "label_action_media_left", "ic_skip_previous"),
         MediaArrowRight(SYSTEMUI_TASK_MEDIA_NEXT, SYSTEMUI, "label_action_media_right", "ic_skip_next"),
         AssistantSoundSearch(SYSTEMUI_TASK_ASSISTANT_SOUND_SEARCH, SYSTEMUI, "label_action_assistant_sound_search", "ic_assistant_sound_search"),
-        RingVibeSilent(SYSTEMUI_TASK_SOUNDMODE_VIB_SILENT, SYSTEMUI, "label_action_ring_vibe_silent", "ic_sysbar_ring_vibe_silent"),
         Camera(SYSTEMUI_TASK_CAMERA, SYSTEMUI, "label_action_camera", "ic_sysbar_camera");
 
         String mAction;
@@ -240,7 +239,6 @@ public class ActionHandler {
             SystemAction.RegionScreenshot, SystemAction.OneHandedModeLeft,
             SystemAction.OneHandedModeRight, SystemAction.MediaArrowLeft,
             SystemAction.MediaArrowRight, SystemAction.AssistantSoundSearch,
-            SystemAction.PlayPause, SystemAction.RingVibeSilent,
             SystemAction.Camera
     };
 
